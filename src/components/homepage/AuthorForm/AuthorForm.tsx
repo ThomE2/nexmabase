@@ -28,7 +28,14 @@ export const AuthorForm = () => {
   };
 
   return (
-    <>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        gap: "10px",
+        width: "50%",
+      }}
+    >
       <h2>Create an author:</h2>
 
       <form
@@ -62,6 +69,6 @@ export const AuthorForm = () => {
 
         <button type="submit">Create</button>
       </form>
-    </>
+    </div>
   );
 };
